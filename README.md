@@ -39,3 +39,14 @@ Por favor, consulte la [documentación](https://zapatajuani.github.io/gestor_de_
 
 # Cambios para la Entrega Final del Nivel Avanzado
 
+Para la entrega del nivel avanzado de la diplomatura, implemente una serie de cambios en el programa.
+
+El funcionamiento del programa principal sigue siendo el mismo, por lo que la guia anterior sigue valiendo para eso. Como novedad se impemento un sistema de registro con ususario y administrador, a su vez de la creacion de nuevas tablas y la adiccion de nuevos usuarios a las talbas ya existentes.
+
+Por el lado del codigo:
+
+1. Se implementaron decoradores para el mejor manejo de la base de datos
+
+2. Uso de observadores para un registro de LOG, en el cual se cargan los datos de los usuarios y sus actividades
+
+3. Implementacion de un Cliente/Servidor para el manejo de esta ultima parte, los observadores toman el rol de Cliente y el servidr se encarga de la parte del Log
