@@ -41,7 +41,9 @@ Por favor, consulte la [documentación](https://zapatajuani.github.io/gestor_de_
 
 Para la entrega del nivel avanzado de la diplomatura, implemente una serie de cambios en el programa.
 
-El funcionamiento del programa principal sigue siendo el mismo, por lo que la guia anterior sigue valiendo para eso. Como novedad se impemento un sistema de registro con ususario y administrador, a su vez de la creacion de nuevas tablas y la adiccion de nuevos usuarios a las talbas ya existentes.
+El funcionamiento del programa principal sigue siendo el mismo, por lo que la guia anterior sigue valiendo para eso.
+
+Como novedad se implemento un sistema de registro, con ususario y contraseña. Tambien se habilito la creacion de nuevas tablas y la adicion de nuevos usuarios a las tablas ya existentes por el medio de una "Security Key".
 
 Por el lado del codigo:
 
@@ -49,4 +51,4 @@ Por el lado del codigo:
 
 2. Uso de observadores para un registro de LOG, en el cual se cargan los datos de los usuarios y sus actividades
 
-3. Implementacion de un Cliente/Servidor para el manejo de esta ultima parte, los observadores toman el rol de Cliente y el servidr se encarga de la parte del Log
+3. Implementacion de un Cliente/Servidor para el manejo de esta ultima parte, los observadores toman el rol de Cliente y el Servidor se encarga de la parte del Log
